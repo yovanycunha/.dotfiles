@@ -91,6 +91,12 @@ return packer.startup(function(use)
 	-- git integration
 	use("lewis6991/gitsigns.nvim")
 
+	-- dashboard-nvim
+	use({
+		"nvimdev/dashboard-nvim",
+		requires = { "nvim-tree/nvim-web-devicons" },
+	})
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
