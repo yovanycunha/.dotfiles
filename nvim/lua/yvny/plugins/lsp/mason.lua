@@ -22,6 +22,8 @@ mason_lspconfig.setup({
 		"cssls",
 		"lua_ls",
 		"emmet_ls",
+		"golangci_lint_ls",
+		"hls",
 	},
 
 	automatic_installation = true,
