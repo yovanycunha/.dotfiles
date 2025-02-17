@@ -62,7 +62,8 @@ return packer.startup(function(use)
 	use("hrsh7th/cmp-nvim-lsp")
 	use({
 		"glepnir/lspsaga.nvim",
-		branch = "main",
+		-- branch = "main",
+		commit = "d027f8b",
 		requires = {
 			{ "nvim-tree/nvim-web-devicons" },
 			{ "nvim-treesitter/nvim-treesitter" },
